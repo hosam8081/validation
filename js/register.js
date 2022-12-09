@@ -7,10 +7,11 @@ const password_confirmation = document.getElementById("password_confirmation");
 
 const url = "https://goldblv.com/api/hiring/tasks/register";
 
+console.log(window.location.hostname + "/profile.html" )
 // check if there is user go to home page
 window.addEventListener("DOMContentLoaded", () => {
   if (localStorage.getItem("user")) {
-    location.href = "profile.html"
+    window.location.hostname + "/profile.html"
   }
 })
 
