@@ -10,7 +10,7 @@ const url = "https://goldblv.com/api/hiring/tasks/register";
 // check if there is user go to home page
 window.addEventListener("DOMContentLoaded", () => {
   if (localStorage.getItem("user")) {
-    window.location.pathname + "/profile.html"
+    window.location.href = "profile.html"
   }
 })
 
@@ -33,7 +33,7 @@ registerBtn.addEventListener("submit", (e) => {
       localStorage.setItem("user", JSON.stringify(data))
     });
     setInterval(() => {
-      window.location.href = '/profile.html'
+      window.location.href = 'profile.html'
     }, 1000)
   } 
 });
