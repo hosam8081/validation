@@ -33,7 +33,7 @@ registerBtn.addEventListener("submit", (e) => {
       localStorage.setItem("user", JSON.stringify(data))
     });
     setInterval(() => {
-      window.location.href = 'validation/profile.html'
+      window.location.href = '/profile.html'
     }, 1000)
   } 
 });
