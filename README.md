@@ -8,4 +8,4 @@ validation form using vanilla js used bootstrap 5 for ui
 - save user to localstorage
 
 ## Demo
-:point_right: try demo [validition-form](https://hosam8081.github.io/validition/)
+:point_right: try demo [validition-form](https://hosam8081.github.io/validation/)
